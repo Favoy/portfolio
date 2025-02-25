@@ -1,55 +1,139 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f5f5f5;
-    color: #333;
-}
+ body {
 
-header {
-    background-color: #222;
-    color: white;
-    padding: 20px;
-}
+background: #f4f4f4;
+margin: 0;
 
-nav a {
-    color: white;
+ }
+.link-title {
     text-decoration: none;
-    margin: 0 15px;
+    font-size: 24px;
+    color: #444444;
 }
 
-.intro {
-    margin-top: 20px;
+.container{
+    width: 780px;
+    margin:0 auto;
+    background:#FFF ;
+    box-shadow: 0px 9px 13px 5px;
 }
 
-footer {
-    margin-top: 50px;
-    padding: 10px;
-    background-color: #222;
-    color: white;
+.header{
+    padding: 45px 0 20px 40px;
 }
+.menu{
+    background: #3b7687;
+    padding: 6px 0 6px 40px;
+}
+
+.menu a {
+
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow", "Myriad Pro";
+
+}
+.menu a:hover {
+    color: #ecf2f3;
+}
+/* aside {
+    float: left;
+    width: 120px;
+    padding: 30px 0 0 40px; */
+}
+h1{
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-family: "Arial Narrow","Myriad Pro";
+    font-weight: normal;
+}
+h2 {
+    color:#3b7687;
+    font-size: 15px;
+    margin:20px 0 5px 0;
+}
+.main {
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family:"Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-emphasis: justify;
+
+}
+
+.main a:hover {
+    color: #444444;
+
+}
+
+#home-image {
+    width:100%;
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+}
+footer a {
+    text-decoration: none;
+    color: #262626;
+
+}
+.seperator {
+    color: #FFFFFF;
+    font-size:  11px;
+}
+/* About Page Styles */
+#about-page #home-image img {
+    width:70%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#about-page #profile-info{
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+#about-page .description{
+    clear: both;
+}
+/*******************Contact Page***************/
+#contact #contactForm { 
+width: 501px;
+padding: 10px 10px 10px 10px;
+margin: 0 auto;
+box-shadow: 0px 9px 13px 5px;
+border-radius: 5px;
+}
+
 #contact {
-    max-width: 500px;
-    margin: 20px auto;
+    box-shadow: 0px 9px 13px 5px;
+}
+
+.page-heading {
     text-align: center;
+    margin-bottom: 20px;
 }
-
-input, textarea {
+#contact #contactForm input {
     width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
     border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
 }
-
-button {
-    background: #007bff;
-    color: white;
-    padding: 10px;
-    border: none;
+#contact #contactForm #message{
+    width: 100%;
     border-radius: 5px;
-    cursor: pointer;
+    background: #D6D6D6;
 }
-
-button:hover {
-    background: #0056b3;
+#contact #contactForm #Submit {
+    height: 30px;
+    background: rgb(59 118 135)
 }
